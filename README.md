@@ -1,17 +1,25 @@
-Prerequisites :
+# TestAngular
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+
+## Prerequisites
 JavaScript
 HTML
 CSS
 Node.js => To check your version :: node -v
         => npm package manager ( Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that            are available as npm packages ) :: run npm -v
 
-Step 1: npm install -g @angular/cli => Install the Angular CLI
+## Step 1: 
+npm install -g @angular/cli => Install the Angular CLI
 
-Step 2: ng new my-app => Create a workspace and initial application
+## Step 2: 
+ng new my-app => Create a workspace and initial application
 
-Step 3: ng serve --open => Run the application
+##Step 3: 
+ng serve --open => Run the application
       ng serve command launches the server, watches your files, and rebuilds the app as you make changes to those files.
       --open (or just -o) option automatically opens your browser to http://localhost:4200/.
+    
+    
     
     
 ## Development server
