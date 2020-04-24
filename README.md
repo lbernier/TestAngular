@@ -1,49 +1,22 @@
-# TestAngular
+# TestDragAndDropComponentsForm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
-## Prerequisites
+## npm i — save @angular/animations
+angular cdk drag and drop
 
-Node.js => check your version :: node -v
+## npm i — save ngx-drag-drop
 
-npm package manager => Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as npm packages. check your version :: npm -v
+## npm install --save sweetalert2 @sweetalert2/ngx-sweetalert2
+A BEAUTIFUL, RESPONSIVE, CUSTOMIZABLE, ACCESSIBLE (WAI-ARIA) REPLACEMENT FOR JAVASCRIPT'S POPUP BOXES
+		ZERO DEPENDENCIES
 
-## Step 1: Install the Angular CLI
+## npm install --save bootstrap
 
-npm install -g @angular/cli  
+## npm i --save core-js
+Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2019: promises, symbols, collections, iterators, typed arrays, many other features, ECMAScript proposals, some cross-platform WHATWG / W3C features and proposals like URL. You can load only required features or use it without global namespace pollution.
 
-For checking your version :: ng version
+## npm i --save font-awesome
+Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites, created and maintained by Dave Gandy. Stay up to date with the latest release and announcements on Twitter: @fontawesome.
 
-## Step 3: Run the application
 
-ng serve =>  launches the server, watches your files, and rebuilds the app as you make changes to those files.
-
-ng serve --open => option automatically opens your browser to http://localhost:4200/
-
-## Create a workspace and initial application
-
-ng new my-app
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
