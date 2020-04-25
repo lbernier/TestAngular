@@ -407,13 +407,8 @@
     <div class="col-12">
       <p>{{ model.description }}</p>
     </div>
-    <div *ngIf="success" class="col-12">
-      <div class="form-group">
-        <label>Your form has been submitted.</label>
-      </div>
-    </div>
     <form class="ftheme">
-      <div *ngIf="!success" class="col-12">
+      <div class="col-12">
         <div *ngFor="let item of model.attributes" class="form-group">
           <div *ngIf="item.type == 'text'">
             <label>{{ item.label }}</label>
