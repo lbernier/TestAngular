@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-7">
+    <app-generateur-formulaire-champs
+      (modelChange)="trouverModel($event)"
+    ></app-generateur-formulaire-champs>
+  </div>
+
+  <div class="col-5">
+    <app-generateur-formulaire-apercu
+      [model]="modelJSON"
+    ></app-generateur-formulaire-apercu>
+  </div>
+</div>
+
+<div class="col-4">
+  <pre *ngIf="modelJSON"
+    >{{ modelJSON | json }}
+</pre
+  >
+</div>

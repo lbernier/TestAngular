@@ -18,6 +18,8 @@ export class field {
   inline?: any;
   value?: any;
   values?: Array<value>;
+  conditionVisibilite?: any;
+  errorConditionVisibilite?: any;
 }
 
 export class value {
